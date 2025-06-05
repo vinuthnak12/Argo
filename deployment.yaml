@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 2                  # Number of pod replicas
+  replicas: 4 
   selector:
     matchLabels:
       app: nginx                           # Select pods with this label
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: shaikmustafa/dm           # Docker image to use
+        image: shaikmustafa/mygame          # Docker image to use
         ports:
         - containerPort: 80                # Port exposed by container
