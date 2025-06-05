@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: shaikmustafa/cycle              # Docker image to use
+        image: shaikmustafa/dm           # Docker image to use
         ports:
         - containerPort: 80                # Port exposed by container
